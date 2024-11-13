@@ -11,17 +11,17 @@ export const routes: Routes = [
   },
 
   {
-    path: '',
+    path: 'destination',
     component: DestinationComponent
   },
 
   {
-    path: '',
+    path: 'crew',
     component: CrewComponent
   },
 
   {
-    path: '',
+    path: 'technology',
     component: TechnologyComponent
   }
 ];

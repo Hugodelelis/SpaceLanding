@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { HeaderComponent } from '../../components/header/header.component';
 
 @Component({
   selector: 'app-technology',
   standalone: true,
-  imports: [],
+  imports: [HeaderComponent],
   templateUrl: './technology.component.html',
   styleUrl: './technology.component.scss'
 })
